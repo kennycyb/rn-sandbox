@@ -1,0 +1,14 @@
+{
+  "name": "rn-sandbox",
+  "scripts": {
+    "start": "react-native start",
+    "bundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "16.8.6",
+    "react-native": "^0.60.4"
+  }
+}
