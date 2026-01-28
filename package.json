@@ -1,7 +1,7 @@
 {
   "name": "rn-sandbox",
   "scripts": {
-    "start": "react-native start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-native start",
     "bundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/"
   },
   "version": "1.0.0",
